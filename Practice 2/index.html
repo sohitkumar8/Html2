@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <p><b>* indicates required fields</b></p>
+    <form>
+        <label for="name">Full Name*:</label>
+        <input type="name" id="name" required placeholder="Enter your full name"><br><br>
+        <label for="email">Email*:</label>
+        <input type="email" id="email" required placeholder="Enter your email"><br><br>
+        <label for="date">Arrival Date*:</label>
+        <input type="date" id="date" required><br><br>
+        <label for="persons">Number of Persons*:</label>
+        <input type="number" id="persons" required placeholder="Enter number of persons"><br><br>
+        <label for="interests">What Would You Want to Avail?*</label><br>
+        <p>Boarding <input type="checkbox" id="boarding" name="interests" value="boarding" required></p>
+        <p>Fooding <input type="checkbox" id="fooding" name="interests" value="fooding" required></p>
+        <p>Sight seeing <input type="checkbox" id="sightseeing" name="interests" value="sightseeing" required></p>
+        <label for="text">Discount Coupon Code:</label>
+        <input type="text" id="text" name="text" placeholder="Enter discount coupon code">
+        <br><br>
+        <label for="terms">Terms and Conditions*</label><br>
+        <span><input type="radio" id="terms" name="terms" value="terms" required> I agree </span>
+        <span><input type="radio" id="terms" name="terms" value="terms" required> I disagree </span>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    
+</body>
+</html>
